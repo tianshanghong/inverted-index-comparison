@@ -1,4 +1,4 @@
-# inverted-index-comparison
+# Compare Two Inverted Index Files
 Compare the differences between the two inverted index output file. Feedbacks (PRs, Issues) and Stars are welcome.
 
 Usage: `usage: python3 mydetect.py <file1> <file2>`
