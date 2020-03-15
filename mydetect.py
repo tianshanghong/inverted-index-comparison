@@ -25,7 +25,7 @@ if __name__ == "__main__":
     lines2 = content2.split("\n")
     for line in lines1:
         if line == "":
-            exit(0)
+            break
         _ = line.split("\t")
         keyword, index = _[0], _[1]
         line2 = None
@@ -46,6 +46,6 @@ if __name__ == "__main__":
                     print(f"In File 1 (not in File 2): \n{indexes1-indexes2}")
                 if (indexes2-indexes1) is not None:
                     print(f"In File 2 (not in File 1): \n{indexes2-indexes1}")
-                
+
     if all_pass == True:
         print("All passed!")
